@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +6,7 @@
     box-sizing: border-box;
 }
 
+  }
 html {
     scroll-behavior: smooth;
 }
@@ -346,4 +348,9 @@ footer p:nth-child(1) {
     color: rgba(78, 210, 233, 0.8);
     bottom: 35px;
     font-size: 30px;
+}
+@media all and (max-width:500px) {
+header {
+       color: rgb(116, 190, 255);
+   }
 }
